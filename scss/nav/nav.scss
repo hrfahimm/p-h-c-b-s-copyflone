@@ -1,0 +1,137 @@
+.li-bar{
+    width: 1px;
+    background-color: #dddddd;
+    display: block;
+    padding: 0.7px !important;
+    height: 1.5rem;
+
+}
+
+a.navbar-brand {
+    margin: 0px;
+    padding: 0px 185px 0px 0px;
+}
+
+
+.nav-icon i{
+    font-size: 2rem;
+   color: rgba(0, 0, 0, 50);
+}
+
+
+
+ 
+
+    
+
+    
+
+ 
+
+
+.custom-dropdown{
+    position: relative;
+
+}
+
+.custom-dropdown ul{
+    display: none;
+    min-height: 100px;
+    position: absolute;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: 0 1px 7px -2px rgb(0 0 0 / 30%);
+    padding: 1rem;
+    border-radius: 0.15rem;
+    margin-top: 0.5rem;
+    
+
+    a{
+        grid-area: span 20 / span 10;
+    }
+
+    
+
+    
+}
+.custom-dropdown:hover ul{
+    display: block;
+    transition: all .3s ease-in-out 0s;
+    transform: .3s;
+}
+ 
+ 
+
+ 
+    
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// li a:before{
+//     position: absolute;
+//     z-index: 999;
+//     top: 13px;
+//     left: 0;
+//     width: 7px;
+//     height: 7px;
+//     content: "";
+//     transition: all .3s ease-in-out 0s;
+//     opacity: 0;
+//     border-radius: 50%;
+//     background: #a749ff none repeat scroll 0 0;
+// }
+
+
+
+
+
+
+
+
+// .specs li{
+//     position: relative;
+//     // margin-bottom: 25px;
+// }
+
+// .specs li:before{
+    
+//     font-family: 'Font Awesome 5 Free';
+//     font-size: .6rem ;
+//     content: '\f058';
+//     position: absolute;
+//     left: -10px;
+//     margin-top: 0px;
+//     color: #55cae7;
+     
+// }
+

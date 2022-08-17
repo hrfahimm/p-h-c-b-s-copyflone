@@ -1,13 +1,21 @@
 
+$font-family :( 'Poppins', sans-serif);
+
+  
+
+
 //import
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,600&display=swap');
+
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-@import './test.scss';
 
-@import './test2.scss';
+@import './nav/nav.scss';
 
+ 
 
 
 
@@ -15,10 +23,6 @@
 
 
 //custom bootstap
-
-$theme-color:(
-    'primary':#ff0000,
-);
 
 
 
