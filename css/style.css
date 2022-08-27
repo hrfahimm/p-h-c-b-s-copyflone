@@ -11160,6 +11160,148 @@ a.navbar-brand img {
   margin: 0 auto;
 }
 
+.subscribe-wrapper {
+  margin: 50px 0px 100px 0px;
+}
+.subscribe-wrapper h2, .subscribe-wrapper .h2 {
+  font-size: 48px;
+  margin-right: 23px;
+  color: #010101;
+}
+.subscribe-wrapper p {
+  font-size: 16px;
+  margin-right: 23px;
+  font-weight: 400;
+  color: #696969;
+}
+.subscribe-wrapper .subscribe-from {
+  position: relative;
+}
+.subscribe-wrapper .subscribe-from .email {
+  font-size: 14px;
+  color: #333;
+  width: 100%;
+  height: 48px;
+  padding: 2px 50px 2px 0px;
+  border: none;
+  border-bottom: 2px solid #dedede;
+  outline: none;
+  box-shadow: none;
+  background: transparent;
+}
+.subscribe-wrapper .subscribe-from .submit {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+}
+.subscribe-wrapper .subscribe-from .submit .button {
+  font-size: 30px;
+  height: 45px;
+  padding: 0;
+  transition: 0.3s;
+  color: #cacaca;
+  background: none;
+  border: none;
+}
+.subscribe-wrapper .subscribe-from .submit .button:hover {
+  color: #696969;
+}
+
+.footer-area {
+  background-color: #f1f1f1;
+  padding: 30px 0 0 0;
+  position: relative;
+  border-top: 2px solid #fff;
+}
+.footer-area .scroll-top {
+  position: fixed;
+  z-index: 9999 !important;
+  right: 20px;
+  bottom: 16px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 100%;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  background-color: #a749ff;
+}
+.footer-area .scroll-top i {
+  font-size: 22px;
+  line-height: 50px;
+  display: block;
+}
+.footer-area .scroll-top2 {
+  position: fixed;
+  z-index: 9999 !important;
+  right: 80px;
+  bottom: 16px;
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 15%;
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  background-color: #c438fc;
+}
+.footer-area .scroll-top2 i {
+  font-size: 22px;
+  line-height: 50px;
+  display: block;
+}
+.footer-area .copyright {
+  margin-bottom: 30px;
+}
+.footer-area .copyright .footer-logo {
+  margin: 41px 0px 12px 0px;
+}
+.footer-area .copyright a {
+  color: #313131;
+  text-decoration: none;
+}
+.footer-area .copyright p {
+  color: #313131;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.9px;
+}
+.footer-area .footer-widget {
+  margin: 0px 0px 30px 30px;
+}
+.footer-area .footer-widget h3, .footer-area .footer-widget .h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0 0 16px;
+  color: #313131;
+}
+.footer-area .footer-widget ul {
+  margin: 0;
+  padding: 0;
+  list-style: outside none none;
+}
+.footer-area .footer-widget ul li {
+  margin: 0 0 11px;
+}
+.footer-area .footer-widget ul li a {
+  letter-spacing: 0.3px;
+  color: #5d5d5d;
+  text-decoration: none;
+}
+.footer-area .footer-widget .subscribe-style p {
+  margin: 0 0 20px;
+  color: #7a7a7a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
 body {
   background-color: #f6f6f6;
   width: 100vw;
