@@ -1,0 +1,48 @@
+a.navbar-brand2 {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+     
+
+    img{
+        height: 40px;
+    }
+   
+}
+.nav-link2{
+    background-color: transparent !important;
+    margin: 0 8px;
+    display: block;
+    padding: 8px 16px ;
+    
+}
+a.active h4,
+ a h4:hover{
+    color: #000;
+}
+a h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+    transition: all 0.3s ease 0s;
+    color:rgba(0, 0, 0, 0.466);
+    line-height: 20px;
+
+}
+ 
+ 
+
+ 
+.nav-aria{
+    background-color: #f1f1f1;
+    padding: 15px 0 15px  0 ;
+    position: relative;
+    
+}
+.sles{
+    font-size: 30px;
+    font-weight: 600;
+   color:#222;
+   display: block;
+    
+
+}

@@ -1,0 +1,99 @@
+ 
+     
+    .p-image{
+        overflow: hidden;
+        .pro-img-aria{
+            margin: 0;
+            .small-imgs{
+                
+               a{
+                display:inline-flex;
+                margin: 0 !important;
+                padding: 0;
+                float: left;
+                height: 150px !important;
+                width: 20px  !important;
+    
+                
+               }
+                
+            }
+        }
+    }
+    
+  
+    .p-product{
+        .pro-add-aria{
+            .text-aria{
+                h4{
+                    font-size: 24px;
+                    color: #555;
+                    text-transform: uppercase;
+                }
+                .s-p-rattng{
+                    .yellow{
+                        color:#ffa900;
+                    }
+                    .gray{
+                        color: #5f5d5d;
+                    }
+                    
+                }
+                p{
+                    font-size: 14px ;
+                    color: #777;
+                }
+               
+                
+            }
+            .add-aria{
+                 
+                    
+                    
+                    .s-plus{
+                        height: 40px ;
+                        width: 40px;
+                        border: 1px solid #888;
+                        padding: 5px ;
+                        background-color: rgb(221, 214, 214);
+                         
+                    }
+                
+
+                .s-add{
+                    height: 55px ;
+                    width: auto;
+                    border: 1px solid #555;
+                    border-radius: 10px;
+                    margin: 0 20px 0 20px;
+                    padding: 10px ;
+                    background-color: #5f5d5d;
+                    color: antiquewhite;
+                     
+                    &:hover{
+                        background-color: aqua;
+                        color: #000;
+                    }
+
+                }
+
+                a{
+                    font-size: 18px;
+                    margin-right: 10px ;
+                    color: #555;
+                    
+                }
+                .add-icon{
+
+                    a{
+                        font-size: 25px;
+                        margin-right: 15px ;
+                        color: #555;
+                        
+                    }
+                }
+                
+
+        }
+    }
+ }

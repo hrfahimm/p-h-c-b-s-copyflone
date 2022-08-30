@@ -1,0 +1,66 @@
+.card-nav{
+
+    .select-bar{
+        color: #333;
+
+    }
+
+    .card-nav-title{
+        color: #555;
+        font-size: 14px;
+        margin-top: 10px;
+
+    }
+    .card-nav-icon{
+        display: flex;
+        padding:10px 0 0 100px;
+        margin-top: 10px;
+        button{
+            border: none !important;
+            outline: none !important;
+            font-size: 22px;
+            color: #000;
+            transition: all .3s ease 0s;
+                transform: translateY(-50%);
+                background: transparent none repeat scroll 0 0;
+        }
+        
+    }
+    
+
+       
+    
+}
+
+
+.card-pages{
+    
+    .number{
+        
+        .numbers{
+             
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+            padding:10px 0px 0px 17px;
+            border: 1px solid #333;
+            border-radius: 100%;
+            color:#000;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            
+           
+            &:hover
+            {
+                background-color: rgb(200, 97, 241);
+                color:  antiquewhite;
+            }
+        }
+        .active{
+            background-color: rgb(200, 97, 241) !important;
+            color:  antiquewhite !important;
+        }
+        
+    }
+}
