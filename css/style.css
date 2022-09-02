@@ -10776,9 +10776,9 @@ a.navbar-brand img {
   height: 60px;
 }
 
-.nav-icon i {
-  font-size: 2.5rem;
-  color: rgb(0, 0, 0);
+span.nav-icon {
+  font-size: 16px;
+  color: #333;
 }
 
 .custom-dropdown {
@@ -11350,6 +11350,22 @@ a h4, a .h4 {
   display: block;
 }
 
+.sticky-bar {
+  position: fixed;
+  z-index: 999;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 25px 0px;
+  transition: all 0.3s ease 0s;
+  animation: 0.7s ease-in-out 0s 1 normal none running fadeInDown;
+  border-bottom: 0px solid rgb(74, 144, 226);
+}
+.sticky-bar:after, .sticky-bar:before {
+  box-sizing: border-box;
+}
+
 .src-col {
   margin-right: 1px solid #fff;
   background-color: rgba(255, 255, 255, 0.425);
@@ -11570,6 +11586,9 @@ a h4, a .h4 {
   border: none;
   text-transform: capitalize;
 }
+.reviews-navs .nav-tabs li a span {
+  color: rgb(233, 83, 153);
+}
 .reviews-navs .nav-tabs li .active {
   color: #111;
   border-bottom: 3px solid #000;
@@ -11627,11 +11646,21 @@ a h4, a .h4 {
 .comment-section .comment-wrapper .comment-rating {
   margin: 10px 0 10px 0;
 }
-.comment-section .comment-wrapper .comment-rating .rating {
-  font-size: 12px;
-  margin-left: 22px;
+.comment-section .comment-wrapper .comment-rating .username {
+  border-bottom: 0.5px solid #999;
 }
-.comment-section .comment-wrapper .comment-rating .rating .yellow {
+.comment-section .comment-wrapper .comment-rating .your-ratting {
+  display: flex;
+  justify-content: flex-start;
+}
+.comment-section .comment-wrapper .comment-rating .your-ratting .rating {
+  font-size: 10px;
+  margin-left: 14px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.comment-section .comment-wrapper .comment-rating .your-ratting .rating .yellow {
   color: #ffa900;
 }
 .comment-section .comment-wrapper .comment-form .spaces {
@@ -11641,6 +11670,17 @@ a h4, a .h4 {
 }
 .comment-section .comment-wrapper .comment-form .spaces .space {
   margin-right: 5px;
+}
+
+.section-title {
+  margin: 50px 0;
+}
+
+.card-list {
+  margin: 40px 0;
+}
+.card-list .product-warp {
+  padding: 40px !important;
 }
 
 body {

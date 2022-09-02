@@ -4,39 +4,21 @@
     display: block;
     padding: 0.7px !important;
     height: 1.5rem;
-
 }
-
 
 a.navbar-brand {
     margin: 0px;
     padding: 0px 185px 0px 0px;
-     
 
-    img{
-        height: 60px;
-    }
-   
+    img{height: 60px;}
+}
+
+span.nav-icon{
+    font-size:16px;
+    color:#333 ;
 }
 
  
-
-
-.nav-icon i{
-    font-size: 2.5rem;
-   color: rgb(0, 0, 0)  ;
-}
-
- 
-
-
-    
-
-    
-
-  
-
-
 .custom-dropdown{
     position: relative;
     outline: none;
@@ -56,10 +38,7 @@ a.navbar-brand {
     transition: .9s;
   
 }
-.custom-dropdown:hover ul{
-    display: block;
-    
-}
+.custom-dropdown:hover ul{display: block;}
  
  
 

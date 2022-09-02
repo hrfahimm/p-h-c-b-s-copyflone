@@ -112,6 +112,7 @@
                 background-color: transparent;
                 border: none;
                 text-transform: capitalize;
+                span{color: rgb(233, 83, 153);}
              }
              .active{
                 color: #111;
@@ -171,10 +172,18 @@
         padding: 15px;
         .comment-rating{
             margin: 10px 0 10px 0 ;
-            .rating{
-                font-size: 12px;
-                margin-left: 22px;
-                .yellow{color: #ffa900;  }
+            .username{border-bottom: .5px solid #999;}
+            .your-ratting{
+                display: flex;
+                justify-content: flex-start;
+                .rating{
+                    font-size: 10px;
+                    margin-left: 14px;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    .yellow{color: #ffa900;  }
+                }
             }
         }
         .comment-form{
@@ -191,6 +200,19 @@
 
 
 
+
+.section-title{
+    margin:50px 0 ;
+
+
+}
+.card-list{
+    margin: 40px 0;
+     .product-warp{
+        padding: 40px !important;
+
+     }
+}
 
 
 
