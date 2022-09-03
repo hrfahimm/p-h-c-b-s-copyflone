@@ -11683,6 +11683,59 @@ a h4, a .h4 {
   padding: 40px !important;
 }
 
+.map-img {
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.map-img img {
+  width: 100%;
+  align-items: center;
+}
+
+.contact-num-form {
+  padding: 40px;
+  border: 5px solid #fff;
+  border-radius: 15px;
+}
+.contact-num-form .contact-num {
+  justify-content: center;
+  align-items: center;
+  border-right: 3px solid #fff;
+}
+.contact-num-form .contact-num .icons {
+  background-color: rgb(221, 215, 215);
+  border: 0.2px solid #000;
+  border-radius: 100%;
+  color: #000;
+  cursor: pointer;
+}
+.contact-num-form .contact-num .icons:hover {
+  background-color: #000;
+  color: #fff;
+}
+.contact-num-form .contact-num .socail {
+  font-size: 20px;
+  color: rgb(146, 41, 48);
+  cursor: pointer;
+}
+.contact-num-form .contact-form h4, .contact-num-form .contact-form .h4 {
+  margin-bottom: 30px;
+}
+.contact-num-form .contact-form .spaces {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.contact-num-form .contact-form .spaces .space {
+  margin-right: 13px;
+}
+.contact-num-form .contact-form .form-control {
+  margin-bottom: 20px;
+}
+
 body {
   background-color: #f6f6f6;
   width: 100vw;

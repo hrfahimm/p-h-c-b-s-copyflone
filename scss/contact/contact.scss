@@ -1,0 +1,52 @@
+.map-img{
+    height:500px;
+    width:100%;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-top: 20px;
+    img{
+         width:100%;
+         align-items: center;
+    }
+}
+
+.contact-num-form{
+    // background-color:  #f0f0f0;
+    padding: 40px;
+    border: 5px solid #fff;
+    border-radius: 15px;
+
+    .contact-num{
+       justify-content: center;
+       align-items: center;
+       border-right: 3px solid #fff;
+        .icons{
+        background-color: rgb(221, 215, 215);
+        border: .2px solid #000;
+        border-radius: 100%;
+        color: #000;
+        cursor: pointer;
+        &:hover{
+            background-color: #000;
+            color: #fff;
+        }
+       }
+       .socail {
+        font-size: 20px;
+        color: rgb(146, 41, 48);
+        cursor: pointer;
+       }
+    }
+    .contact-form{
+        h4{margin-bottom: 30px;}
+        .spaces{
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+             .space{margin-right: 13px;}
+         }
+         .form-control{
+            margin-bottom:20px;
+         }
+    }
+}
